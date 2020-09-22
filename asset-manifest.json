@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pericardio/static/css/main.957c666a.chunk.css",
+    "main.js": "/pericardio/static/js/main.b7485cea.chunk.js",
+    "main.js.map": "/pericardio/static/js/main.b7485cea.chunk.js.map",
+    "runtime-main.js": "/pericardio/static/js/runtime-main.64267aa8.js",
+    "runtime-main.js.map": "/pericardio/static/js/runtime-main.64267aa8.js.map",
+    "static/css/2.cd846464.chunk.css": "/pericardio/static/css/2.cd846464.chunk.css",
+    "static/js/2.0e0b1d2c.chunk.js": "/pericardio/static/js/2.0e0b1d2c.chunk.js",
+    "static/js/2.0e0b1d2c.chunk.js.map": "/pericardio/static/js/2.0e0b1d2c.chunk.js.map",
+    "index.html": "/pericardio/index.html",
+    "precache-manifest.d4351fa219ed25c47bd3ab63b067ce5a.js": "/pericardio/precache-manifest.d4351fa219ed25c47bd3ab63b067ce5a.js",
+    "service-worker.js": "/pericardio/service-worker.js",
+    "static/css/2.cd846464.chunk.css.map": "/pericardio/static/css/2.cd846464.chunk.css.map",
+    "static/css/main.957c666a.chunk.css.map": "/pericardio/static/css/main.957c666a.chunk.css.map",
+    "static/js/2.0e0b1d2c.chunk.js.LICENSE.txt": "/pericardio/static/js/2.0e0b1d2c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/pericardio/static/media/OptimaLTStd-MediumItalic.cf72ea46.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64267aa8.js",
+    "static/css/2.cd846464.chunk.css",
+    "static/js/2.0e0b1d2c.chunk.js",
+    "static/css/main.957c666a.chunk.css",
+    "static/js/main.b7485cea.chunk.js"
+  ]
+}
