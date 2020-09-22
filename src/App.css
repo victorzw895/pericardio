@@ -1,38 +1,130 @@
-.App {
+@font-face {
+  font-family: 'Optima';
+  src: local('OptimaLTStd-Medium'), url('./Fonts/OptimaLTStd-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Optima';
+  src: local('OptimaLTStd-MediumItalic'), url('./Fonts/OptimaLTStd-MediumItalic.otf') format('opentype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: local('FuturaStd-Book'), url('./Fonts/FuturaStd-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: local('FuturaStd-BookOblique'), url('./Fonts/FuturaStd-BookOblique.otf') format('opentype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: local('FuturaStd-Medium'), url('./Fonts/FuturaStd-Medium.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: local('FuturaStd-MediumOblique'), url('./Fonts/FuturaStd-MediumOblique.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+html {
+  background-color: rgba(209, 214, 224, 1);
+  font-family: 'Futura';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Optima';
+}
+
+li,
+p,
+a {
+  font-family: 'Futura';
+}
+
+a:focus {
+  outline: none;
+}
+
+.mainBanner {
+  padding-top: 2.7rem;
+  padding-bottom: 2rem;
+  background-color: rgba(150, 163, 189, 1);
+}
+
+.mainBanner img {
+  display: block;
+  max-width: 40rem;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#navBar {
+  background-color: rgba(186, 194, 209, 1);
+  /* background-color: rgba(229, 189, 117, 1); */
+}
+
+#navBar ul {
   text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#navBar ul li {
+  padding: 1.5rem 1.2rem;
+  position: relative;
+  display: inline-block;
+  /* background: linear-gradient(to left, rgba(186, 194, 209, 1), rgba(186, 194, 209, 1) 50%, rgba(161, 171, 194, 1) 50%); */
+
+  background: linear-gradient(to left, rgba(186, 194, 209, 1), rgba(186, 194, 209, 1) 50%, rgba(229, 189, 117, 1) 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  transition: background-position 300ms ease;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#navBar ul li:hover {
+  background-position: 0 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#navBar ul a {
+  text-decoration: none;
+  /* color: rgba(135, 150, 181, 1); */
+  color: rgba(245, 245, 240, 1);
+  display: inline-block;
 }
 
-.App-link {
-  color: #61dafb;
+#navBar ul li span {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(to right, rgba(135, 150, 181, 1), rgba(135, 150, 181, 1) 50%, rgba(245, 245, 240, 1) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 500ms ease;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#navBar ul li span:hover {
+  background-position: 0 100%;
+}
+
+.Content {
+  margin: 0 auto;
+  width: 960px;
+  text-align: centerw;
 }
